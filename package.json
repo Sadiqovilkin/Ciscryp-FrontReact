@@ -1,0 +1,28 @@
+{
+  "name": "ciscryp-frontreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sadiqovilkin/Ciscryp-FrontReact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sadiqovilkin/Ciscryp-FrontReact/issues"
+  },
+  "homepage": "https://github.com/Sadiqovilkin/Ciscryp-FrontReact#readme",
+  "dependencies": {
+    "husky": "^8.0.3"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "pretty-quick": "^3.1.3"
+  }
+}
