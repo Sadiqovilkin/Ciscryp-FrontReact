@@ -35,16 +35,27 @@
   justify-content: end;
   gap: 50px;
 }
-.searchcart .searchfilter input {
+.searchcart .searchfilter .nav_search {
+  position: relative;
+}
+.searchcart .searchfilter .nav_search input {
   background-color: transparent;
   outline: none;
-  border: 1px solid rgba(249, 250, 251, 0.0941176471);
-  border-radius: 25px;
-  width: 60%;
-  text-align: center;
+  border: 1px solid #3f434a;
+  padding: 10px 40px 10px 15px;
+  color: rgb(235, 235, 235);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 320px;
+  border-radius: 15px;
 }
-.searchcart .searchfilter input:focus {
-  background-color: #f9fafb;
+.searchcart .searchfilter .nav_search svg {
+  position: absolute;
+  top: 11px;
+  left: 91%;
+  right: 0;
+  font-size: 18px;
+  color: grey;
 }
 .searchcart .searchfilter a {
   color: white;

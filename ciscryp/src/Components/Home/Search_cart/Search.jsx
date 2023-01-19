@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SearchStyled from "./Search.module.css";
+import { BsSearch } from "react-icons/bs";
 import { BsArrowUpShort } from "react-icons/bs";
 import { BsFillCameraVideoFill } from "react-icons/bs";
 import { BsFillAlarmFill } from "react-icons/bs";
@@ -56,12 +57,16 @@ const Search = () => {
           </div>
           <div className="col-lg-6">
             <div className={SearchStyled.searchfilter}>
-              <input
-                type="text"
-                onChange={filterBySearch}
-                id="srcbtn"
-                placeholder="Search"
-              />
+              <div className={SearchStyled.nav_search}>
+                <input
+                  type="search"
+                  id="top_search"
+                  name="search"
+                  onChange={filterBySearch}
+                  placeholder="Search items"
+                />
+                <BsSearch />
+              </div>
               <a href="">
                 Filter <BsArrowUpShort />
               </a>
