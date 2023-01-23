@@ -1,54 +1,128 @@
-#swiper_slider {
+#swiper-collect {
   background-color: #111827;
-  .border_radius {
-    border-radius: 50px;
-    background-color: #0e131f;
-    .popular {
-      span {
-        &:nth-child(1) {
-          color: white;
-          font-size: 40px;
-          margin-right: 10px;
-          font-weight: 600;
-        }
-        &:nth-child(2) {
-          cursor: pointer;
-          font-weight: 600;
-          color: green;
-          font-size: 40px;
-        }
-      }
+
+  padding: 100px 0;
+
+  span {
+    &:nth-child(1) {
+      font-size: 35px;
+      font-weight: 600;
     }
-    .swiper {
+
+    &:nth-child(2) {
+      font-weight: 600;
+      font-size: 35px;
+      color: rgb(34, 155, 34);
+      margin-left: 10px;
+    }
+  }
+  p {
+    font-size: 20px;
+    color: #9ca3af;
+  }
+
+  .swiper-button-next {
+    color: grey;
+    right: 10px;
+    top: 27px;
+    &:after {
+      font-size: 18px;
+    }
+    @media (max-width: 550px) {
+      display: none;
+    }
+  }
+  .swiper-button-prev {
+    color: grey;
+    left: 1173px;
+    top: 27px;
+
+    &:after {
+      font-size: 18px;
+    }
+    @media (max-width: 1400px) {
+      left: 86%;
+    }
+    @media (max-width: 550px) {
+      display: none;
+    }
+  }
+
+  .swiper-pagination {
+    display: none;
+  }
+  .img {
+    margin-top: 70px;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    height: 410px;
+    border-radius: 15px;
+    overflow: hidden;
+
+    #img-bright {
+      transition: 0.2s ease-in-out;
+      filter: brightness(0.9);
       width: 100%;
       height: 100%;
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
+      object-fit: cover;
+    }
 
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
+    .img-inner-title {
+      position: absolute;
+      bottom: 120px;
+      margin-left: 15px;
+      font-weight: 500;
+
+      .info-person {
         display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
+        gap: 5px;
         align-items: center;
-        .swiperCart {
-          .slider_img {
-            img {
-              width: 100%;
-              height: 410px;
-            }
-          }
+
+        img {
+          border-radius: 14px;
+          width: 28px;
+          height: 28px;
+          object-fit: cover;
+          border: 2px solid white;
+        }
+
+        span {
+          font-size: 11px;
+          margin: 0;
+          color: white;
         }
       }
+
+      span {
+        margin: 0;
+        font-size: 30px;
+        color: white !important;
+      }
     }
+
+    .img-inner {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      img {
+        width: 111px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 15px;
+      }
+    }
+    &:hover #img-bright {
+      filter: brightness(0.7);
+    }
+  }
+  .bg_color {
+    background-color: #0e131f;
+    border-radius: 25px;
+    padding: 20px 20px;
   }
 }
