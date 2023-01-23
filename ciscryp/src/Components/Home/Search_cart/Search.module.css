@@ -1,0 +1,128 @@
+.searchcart {
+  background-color: #111827;
+  color: rgb(156, 163, 175);
+}
+.searchcart .header h3 {
+  font-size: 36px;
+  color: #f9fafb;
+}
+.searchcart .header h3 p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.searchcart .categories ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+.searchcart .categories ul li {
+  list-style: none;
+  padding: 5px 15px;
+  border-radius: 18px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.searchcart .categories ul li:hover {
+  background-color: rgba(249, 250, 251, 0.0941176471);
+}
+.searchcart .categories ul li a {
+  text-decoration: none;
+  color: rgb(156, 163, 175);
+}
+.searchcart .searchfilter {
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+}
+.searchcart .searchfilter .nav_search {
+  position: relative;
+}
+.searchcart .searchfilter .nav_search input {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #3f434a;
+  padding: 10px 40px 10px 15px;
+  color: rgb(235, 235, 235);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 320px;
+  border-radius: 15px;
+}
+.searchcart .searchfilter .nav_search svg {
+  position: absolute;
+  top: 11px;
+  left: 91%;
+  right: 0;
+  font-size: 18px;
+  color: grey;
+}
+.searchcart .searchfilter a {
+  color: white;
+  background-color: #0284cf;
+  padding: 10px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.searchcart .card .card_img {
+  width: 100%;
+  height: 300px;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  position: relative;
+}
+.searchcart .card .card_img img {
+  width: 100%;
+  height: 300px;
+  border-radius: 1.5rem;
+}
+.searchcart .card .card_img span {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(128, 128, 128, 0.763);
+  padding: 5px 15px;
+  color: white;
+  border-radius: 25px;
+}
+.searchcart .card .card_content {
+  margin-top: 10px;
+}
+.searchcart .card .card_content h2 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  color: #fff;
+}
+.searchcart .card .card_content .price {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchcart .card .card_content .price .fieldset {
+  border: 2px solid green;
+  border-radius: 15px;
+  padding: 5px 15px;
+  position: relative;
+}
+.searchcart .card .card_content .price .fieldset p {
+  font-size: 20px;
+  margin: 0;
+}
+.searchcart .card .card_content .price .fieldset span {
+  color: rgb(156, 163, 175);
+  background-color: #111827;
+  position: absolute;
+  top: -15px;
+  left: 20px;
+}
+.searchcart .card .card_content .price a {
+  text-decoration: none;
+  color: #f9fafb;
+  font-size: 11px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+} /*# sourceMappingURL=Search.module.css.map */

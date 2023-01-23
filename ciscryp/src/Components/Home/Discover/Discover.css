@@ -1,0 +1,59 @@
+#sec_discover {
+  box-sizing: border-box;
+  background-color: #111827;
+}
+#sec_discover .left_side {
+  background-color: #111827;
+  border-radius: 40px;
+  padding: 30px;
+}
+#sec_discover .left_side span {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 500;
+}
+#sec_discover .left_side p {
+  margin: 40px 0;
+  width: 73%;
+  color: #616161;
+}
+#sec_discover .left_side .sec1_click {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-direction: row;
+}
+#sec_discover .left_side .sec1_click #explore {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  background-color: rgb(2, 132, 199);
+  padding: 15px 33px;
+  display: inline-block;
+  border-radius: 40px;
+  transition: 0.2s ease-in-out;
+}
+#sec_discover .left_side .sec1_click #explore:hover {
+  background-color: rgb(19, 111, 156);
+}
+#sec_discover .left_side .sec1_click #create {
+  text-decoration: none;
+  font-size: 14px;
+  color: #616161;
+  background-color: #111827;
+  padding: 15px 33px;
+  display: inline-block;
+  border-radius: 40px;
+  border: 1px solid #616161;
+  transition: 0.2s ease-in-out;
+}
+#sec_discover .left_side .sec1_click #create:hover {
+  background-color: #2c3343;
+}
+#sec_discover .right_side img {
+  width: 95%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  cursor: pointer;
+} /*# sourceMappingURL=Discover.css.map */
